@@ -7,5 +7,17 @@
   "license": "MIT",
   "scripts": {
     "update": "git fetch origin main && git pull origin main && rm -rf build/ && yarn && tsc"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.2.1",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^14.14.25",
+    "@types/ws": "^7.4.0",
+    "chalk": "^4.1.0",
+    "clui": "^0.3.6",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3"
   }
 }
