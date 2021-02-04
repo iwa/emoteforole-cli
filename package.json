@@ -1,0 +1,8 @@
+{
+  "name": "emoteforole-cli",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "repository": "https://github.com/iwa/emoteforole-cli.git",
+  "author": "iwa <iwaongit@gmail.com>",
+  "license": "MIT"
+}
