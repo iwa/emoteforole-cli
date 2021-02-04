@@ -9,6 +9,7 @@
     "update": "git fetch origin main && git pull origin main && rm -rf build/ && yarn && tsc"
   },
   "dependencies": {
+    "@types/clui": "^0.3.0",
     "@types/figlet": "^1.2.1",
     "@types/inquirer": "^7.3.1",
     "@types/node": "^14.14.25",
