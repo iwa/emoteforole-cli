@@ -6,6 +6,7 @@
   "author": "iwa <iwaongit@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "tsc && node .",
     "update": "git fetch origin main && git pull origin main && rm -rf build/ && yarn && tsc"
   },
   "dependencies": {
